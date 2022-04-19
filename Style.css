@@ -184,6 +184,10 @@ background-color: rgb(255, 255, 255);
  
     transform:none;
     transition:none;
+    transition:none;
+    display: grid;
+    place-items: center;
+    align-items: center;
     
   }
 }
@@ -194,6 +198,9 @@ background-color: rgb(255, 255, 255);
 
     transform:none;
     transition:none;
+    display: grid;
+    place-items: center;
+    align-items: center;
     
   }
 }
