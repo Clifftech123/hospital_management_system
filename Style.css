@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*============= nav bar background =================== */
+
+.navbar {
+  background: rgb(4, 147, 172);
+}
+
+/* nav link color  */
+.nav-link {
+  color: #fff !important;
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid white;
+  padding: 6px 0;
+}
+
+.home-active{
+  color:  rgba(9,47,121,1) !important;
+}
+
+
+
+
+
+  /*======= Remove all the border bottom from the nav links =========*/
+@media (max-width: 767px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+@media (max-width: 767px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+
+@media (max-width: 991px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+@media (max-width: 991px) {
+  a.nav-link:hover {
+  
+    border: none;
+    
+  }
+}
+
+
+/* when the home button is active we will change the colors  */
+.home-active {
+  color: rgb(0, 0, 0);
+}
+
+/* nav search button  */
+input[type="search"],
+select {
+  border-radius: 15px;
+}
+
+input[type="search"] :focus {
+  outline: none;
+  border: none ;
+}
+.header_conten p{
+  margin-top: 500px !important;
+}
+
+
+
+/* body background with the image  */
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+}
+
+body {
+  background: rgba(226, 226, 226, 0.401); 
+}
+
+
+/* ============ login and signup links in navbar  ==========*/
+.register_font {
+  font-family: "Quicksand", sans-serif;
+}
+.loingbord {
+  border-left: 2px solid rgb(248, 248, 248);
+}
+.register {
+  margin-right: 5px;
+}
+
+/*   <!-- the bewteen the the two items will remove when the screen reach this size  -->  */
+@media (max-width: 757px) {
+  .loingbord, .register_font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .loingbord, .register_font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+
+
+/* card buttons */
+.btn {
+  color: #fff;
+  background-color: rgb(4, 147, 172);
+}
+.btn:hover {
+  color: purple;
+}
+
+/* Card title  */
+.card-title {
+  color: rgb(4, 147, 172);
+  font-weight: bolder;
+}
+
+/* card  hover effect */
+.card:hover{
+  box-shadow: 5px 5px 5px rgba(4, 147, 172, 0.168);
+  background-color: rgba(9,47,121,1) ;
+  transform:scale(1.1);
+  color: #fff;
+  border-radius: 8px;
+
+ 
+}
+
+.card{
+transition:.3s;
+overflow: hidden;
+border: 1px solid   rgb(4, 147, 172);
+border-radius: 5px;
+position: relative;
+height: 200px;
+margin-top: 70px;
+background-color: rgb(255, 255, 255);
+
+
+}
+
+
+/* card on small devices  */
+
+@media (max-width: 767px) {
+  .card{
+    
+  
+    box-shadow: none;
+ 
+    transform:none;
+    transition:none;
+    
+  }
+}
+@media (max-width: 767px) {
+  .card:hover {
+    
+    box-shadow: none;
+
+    transform:none;
+    transition:none;
+    
+  }
+}
+
+/* card text  */
+.card-text{
+  font-size: 15px;
+  color:rgb(4, 147, 172); 
+}
+
+/*=============== card image ==========*/
+
+/* doctor image  */
+.doctor-image
+ {
+  opacity: 0.2;
+}
+
+.card.doctor-image:hover {
+  opacity: none;
+}
+
+
+/*  image  */
+.patient-image{
+  opacity: 0.1;
+}
+
+
+
+
+

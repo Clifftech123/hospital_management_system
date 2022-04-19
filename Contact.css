@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav bar background  */
+
+.navbar{
+
+background: rgb(4, 147, 172) ;
+}
+
+/* nav link color  */
+.nav-link{
+    color: #fff !important;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 20px;
+    transition: 0.3s ease;
+   
+}
+
+  .nav-link:hover {
+    border-bottom: 1px solid white;
+    padding: 6px 0;
+  }
+  
+  .contact_active{
+    color:  rgba(9,47,121,1) !important;
+  }
+  
+  
+  /*======= border bottom will remove when the dives reach this size=========*/
+  @media (max-width: 767px) {
+    a.nav-link:hover {
+      
+      border: none;
+      
+    }
+  }
+  @media (max-width: 767px) {
+    a.nav-link:hover {
+    
+      border: none;
+      
+    }
+  }
+
+ 
+  
+/* ===========nav search button ============== */
+input[type="search"],select{
+  border-radius: 15px;
+}
+
+input[type="search"],select :active {
+  outline: none;
+  border: none;
+}
+/*------- end of the  nav search button---------------- */
+
+
+
+
+/*======== body background with the image  =========*/
+html, body {
+  height:100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: rgba(108, 108, 108, 0.142),  url(/IMAGES/contact.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+body {
+    background: rgba(
+        226,
+        226,
+        226,
+        0.538
+      );  
+};
+/* ------------ end of the   body background with the image----------- */
+
+
+
+
+
+/*========= login and signup links in navbar=========    */
+.register_font{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.loingbord{
+    border-left: 2px solid rgb(248, 248, 248);
+}
+.register{
+    margin-right: 5px;
+}
+
+
+@media (max-width: 767px) {
+    .loingbord, .register_font {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .loingbord, .register_font {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+    }
+  }
+/* --- end the  -----  login and signup links in navbar  */
+
+
+
+
+
+
+
+
+
+
+/* ==========FORM SECTION ========= */
+
+#form_section{
+    background-color: rgba(236, 236, 236, 0.55);
+}
+
+.for_lable{
+ font-size: 17px;
+ color:  rgb(4, 147, 172) ;
+}
+
+.Adrress p{
+    font-size: 15px;
+    color: rgb(4, 147, 172) ;
+    
+}
+
+input[type="text"],select {
+  border-radius: 10px;
+  border: 1px solid rgb(4, 147, 172) ;
+ 
+}
+
+input[type="email"],select {
+    border-radius: 10px;
+    border: 1px solid rgb(4, 147, 172) ;
+  }
+
+  input[type="number"],select {
+    border-radius: 10px;
+    border: 1px solid rgb(4, 147, 172) ;
+  }
+
+  input[type="number"],select {
+    border-radius: 10px;
+    border: 1px solid rgb(4, 147, 172) ;
+  }
+
+  .textarea{
+    border-radius: 10px;
+    border: 1px solid rgb(4, 147, 172) ;
+  }
+
+  .sumbit-btn{
+    background-color:rgb(4, 147, 172) ; 
+    color: #fff;
+  }
+
+
