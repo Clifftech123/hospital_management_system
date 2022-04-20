@@ -94,13 +94,15 @@ body {
   margin: 0;
 }
 
-html {
+html body {
   background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
 }
 
-body {
-  background: rgba(226, 226, 226, 0.401); 
+html  {
+
 }
+
+
 
 
 /* ============ login and signup links in navbar  ==========*/
@@ -133,6 +135,10 @@ body {
   }
 }
 
+
+.heading_text{
+  font-weight: bold;
+}
 
 /* card buttons */
 .btn {
@@ -219,17 +225,14 @@ background-color: rgb(255, 255, 255);
   opacity: 0.2;
 }
 
-.card.doctor-image:hover {
-  opacity: none;
+
+
+/*  patenint  image  */
+.patient-image{
+  opacity: 0.2;
 }
 
 
-/*  image  */
-.patient-image{
+.Addmi-image{
   opacity: 0.1;
 }
-
-
-
-
-
