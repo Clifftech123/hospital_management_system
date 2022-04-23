@@ -1,0 +1,164 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*============= nav bar background =================== */
+
+.navbar {
+  background: rgb(4, 147, 172);
+}
+
+/* nav link color  */
+.nav-link {
+  color: #fff !important;
+  font-family: "Quicksand", sans-serif;
+  margin-right: 20px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid white;
+  padding: 6px 0;
+}
+
+.home-active{
+  color:  rgba(9,47,121,1) !important;
+}
+
+
+
+
+
+  /*======= Remove all the border bottom from the nav links =========*/
+@media (max-width: 767px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+@media (max-width: 767px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+
+@media (max-width: 991px) {
+  a.nav-link:hover {
+    
+    border: none;
+    
+  }
+}
+@media (max-width: 991px) {
+  a.nav-link:hover {
+  
+    border: none;
+    
+  }
+}
+
+
+/* when the home button is active we will change the colors  */
+.home-active {
+  color: rgb(0, 0, 0);
+}
+
+/* nav search button  */
+input[type="search"],
+select {
+  border-radius: 15px;
+}
+
+input[type="search"] :focus {
+  outline: none;
+  border: none ;
+}
+.header_conten p{
+  margin-top: 500px !important;
+}
+
+/* ============ login and signup links in navbar  ==========*/
+.register_font {
+  font-family: "Quicksand", sans-serif;
+}
+.loingbord {
+  border-left: 2px solid rgb(248, 248, 248);
+}
+.register {
+  margin-right: 5px;
+}
+
+/*   <!-- the bewteen the the two items will remove when the screen reach this size  -->  */
+@media (max-width: 757px) {
+  .loingbord, .register_font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .loingbord, .register_font {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  }
+}
+
+
+/* background image */
+
+html body {
+  background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+/* ==============  FORM SECTION ==================== */
+.Form_section{
+  margin-top: 70px;
+  
+}
+
+/* for background color  */
+.form_background{
+  background: rgba(4, 147, 172, 0.802);
+  color: #fff;
+  width: 70%;
+  border-radius: 7px;
+}
+
+
+/* option section background */
+#validationCustom04 option{
+  background: rgb(4, 147, 172);
+  color: #fff;
+  font-weight: lighter;
+  font-family: "Quicksand", sans-serif;
+
+}
+
+
+/* form control */
+.form-control{
+  border-radius: 5px;
+}
+
+.form-control:hover{
+  -webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.72); 
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.72);
+
+}
+

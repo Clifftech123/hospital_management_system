@@ -196,6 +196,11 @@ background-color: rgb(255, 255, 255);
     align-items: center;
     
   }
+
+  html body {
+    background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+  }
+  
 }
 @media (max-width: 767px) {
   .card:hover {
@@ -209,6 +214,11 @@ background-color: rgb(255, 255, 255);
     align-items: center;
     
   }
+
+  html body {
+    background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+  }
+  
 }
 
 /* card text  */
