@@ -33,6 +33,41 @@ background: rgb(4, 147, 172) ;
   }
   
   
+
+
+
+/* Serch bar meadi quarry */
+@media (max-width: 757px) {
+  .mainserch{
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .mainserch{
+    display: none;
+  }
+}
+
+.topserch{
+  display: none;
+}
+
+@media (max-width: 757px) {
+ .topserch{
+  display: block;
+  margin-top: 20px;
+ }
+}
+
+@media (max-width: 991px) {
+  .topserch{
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+
   /*======= border bottom will remove when the dives reach this size=========*/
   @media (max-width: 767px) {
     a.nav-link:hover {

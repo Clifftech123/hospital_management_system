@@ -1,161 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap link -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-   <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
-    <!-- css link -->
-    <link rel="stylesheet" href="Style.css" />
-    <title>Project</title>
-  </head>
-  <body>
-    <!--========== Navbar=============== -->
-    <header>
-      <nav class="navbar   navbar-expand-lg navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Logo </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link  active home-active" href="#">Home</a>
-              </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap link -->
 
-              <li class="nav-item">
-                <a class="nav-link" href="Appointment.html">Appointment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Addim.html">Donation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
-              </li>
-            </ul>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="Style.css" />
+  <title>Project</title>
+</head>
 
-            <!-- form with search button -->
-            <form class="d-flex">
-              <input
-                class="form-control me-2 border-0 btn-outline-light"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-light d-none d-md-block" type="submit">
-                Search
-              </button>
-            </form>
+<body>
+  <!--========== Navbar=============== -->
+  <header>
+    <nav class="navbar   navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-toggler"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <!-- login and signup links -->
-            <ul class="navbar-nav ms-auto onmedia">
-              <li class="nav-item">
-                <a class="nav-link register_font register" href="#">Register</a>
-              </li>
-              <p>  </p>
-              <li class="nav-item">
-                <a class="nav-link register_font loingbord" href="#">login</a>
-              </li>
-            </ul>
+
+
+          <!-- the search that  shows up in the small devices -->
+          <form class="d-flex  topserch">
+            <input class="form-control me-2 border-0 btn-outline-light topserch" type="search" placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-light topserch " type="submit">
+              Search
+            </button>
+          </form>
+
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link  active home-active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Appointment.html">Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Addim.html">Donation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+
+
+          <!-- TEH MAIN SERCH BUTTON IN MD VIEW  -->
+          <form class="d-flex mainserch ">
+            <input class="form-control me-2 border-0 btn-outline-light  mainserch" type="search" placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-light  mainserch " type="submit">
+              Search
+            </button>
+          </form>
+
+
+          <!-- login and signup links -->
+          <ul class="navbar-nav ms-auto onmedia">
+            <li class="nav-item">
+              <a class="nav-link register_font register" href="#">Register</a>
+            </li>
+            <p> </p>
+            <li class="nav-item">
+              <a class="nav-link register_font loingbord" href="#">login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- the end of the navbar -->
+
+
+
+
+  <!-- ================ Heading content ========== -->
+
+  <section id="headertext ">
+    <div class="container  my-5">
+      <h4 class="text-center heading_text"> Find a Doctor, Dentist or Healthcare Specialist!</h4>
+      <p class="text-center   heading_text"> Book and appointment with Your Preferred Healthcare provider across the
+        country </p>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- ================ card section ========== -->
+  <section class="dow">
+
+    <div class="   d-flex aligns-items-center justify-content-center  w-75 mx-auto  ">
+      <div class="row my-5 ">
+        <div class="col-md-4 col-sm-4 ">
+          <div class="card border-info card_hover" style="width: 18rem;">
+            <img src="/IMAGES/doc12.png" class="card-img-top  doctor-image" alt="This is doctor image">
+            <div class="card-body card-img-overlay mt-4 d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Doctor</h5>
+              <p class="card-text text-center">Are you a doctor?</p>
+              <center>
+                <a href="#" class="btn">Sign up</a>
+              </center>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card border-info card_hover" style="width: 18rem;">
+            <img src="/IMAGES/pat12.png"" class=" card-img-top patient-image" alt="This is patient image">
+            <div class="card-body card-img-overlay mt-4">
+              <h5 class="card-title text-center">Patient</h5>
+              <p class="card-text text-center">Are you a patient?</p>
+              <center>
+                <a href="#" class="btn">Sign up</a>
+              </center>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- the end of the navbar -->
 
 
 
-
-    <!-- ================ Heading content ========== -->
-   
-    <section id="headertext ">
-      <div class="container  my-5">
-        <h4 class="text-center heading_text"> Find a Doctor, Dentist or Healthcare Specialist!</h4>
-          <p class="text-center   heading_text"> Book and appointment with Your Preferred Healthcare provider across the country  </p>
-   
-      </div>
-   
-       </section>
-       
-
-
-
-       <!-- ================ card section ========== -->
-       <section class="dow">
-
-      <div class="   d-flex aligns-items-center justify-content-center  w-75 mx-auto  ">
-        <div class="row my-5 ">
-          <div class="col-md-4 col-sm-4 ">
-            <div class="card border-info card_hover" style="width: 18rem;">
-              <img src="/IMAGES/doc12.png" class="card-img-top  doctor-image" alt="This is doctor image" >
-              <div class="card-body card-img-overlay mt-4 d-flex flex-column align-items-center">
-                <h5 class="card-title text-center">Doctor</h5>
-                <p class="card-text text-center">Are you a doctor?</p>
-                <center>
-                  <a href="#" class="btn">Sign up</a>
-                </center>
-              </div>
-            </div>
-           
-
-            </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="card border-info card_hover" style="width: 18rem;">
-              <img src="/IMAGES/pat12.png"" class="card-img-top  patient-image" alt="This is patient image" >
-              <div class="card-body card-img-overlay mt-4">
-                <h5 class="card-title text-center">Patient</h5>
-                <p class="card-text text-center">Are you a patient?</p>
-                <center>
-                  <a href="#" class="btn">Sign up</a>
-                </center>
-              </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="card border-info card_hover" style="width: 18rem;">
+            <img src="/IMAGES/admin.png" class="card-img-top  Addmi-image" alt="This is doctor image">
+            <div class="card-body card-img-overlay mt-4">
+              <h5 class="card-title text-center">Addim</h5>
+              <p class="card-text text-center">Do you want to donate?</p>
+              <center>
+                <a href="#" class="btn">Sign up</a>
+              </center>
             </div>
           </div>
 
-
-
-          <div class="col-md-4 col-sm-4">
-            <div class="card border-info card_hover" style="width: 18rem;">
-              <img src="/IMAGES/admin.png" class="card-img-top  Addmi-image" alt="This is doctor image" >
-              <div class="card-body card-img-overlay mt-4">
-                <h5 class="card-title text-center">Addim</h5>
-                <p class="card-text text-center">Do you want to donate?</p>
-                <center>
-                  <a href="#" class="btn">Sign up</a>
-                </center>
-              </div>
-            </div>
-            
-            </div>
-          </div> 
-
+        </div>
       </div>
+
+    </div>
     </div>
 
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
 
-  
-  </body>
+
+
+</body>
+
 </html>

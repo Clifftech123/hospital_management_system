@@ -1,118 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap");
 
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    background: rgba(
-        226,
-        226,
-        226,
-        0.538
-      ); 
+body {
+  background: rgba(226, 226, 226, 0.538);
 }
-
-
-
-
-
 
 /* APPOINTMENT FORM SECTION  */
-.heading .heading_text { 
-    background-color:  rgb(4, 147, 172) ;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  
+.heading .heading_text {
+  background-color: rgb(4, 147, 172);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /*   PATIENT INFORMATION  */
-input[ type="text"],select {
-    border: 1px solid rgb(4, 147, 172) ;
-    border-radius: 5px;
-
+input[type="text"],
+select {
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
 }
 
-input[ type="text"]:hover{
-    -webkit-box-shadow: 5px 3px 15px -13px #000000; 
-    box-shadow: 5px 3px 15px -13px #000000;
+input[type="text"]:hover {
+  -webkit-box-shadow: 5px 3px 15px -13px #000000;
+  box-shadow: 5px 3px 15px -13px #000000;
 }
 
-.Appointment_date{
-    border: 1px solid rgb(4, 147, 172) ;
-    border-radius: 5px;
+.Appointment_date {
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
 }
 
-.Appointment_date:hover{
-    -webkit-box-shadow: 5px 3px 15px -13px #000000; 
-    box-shadow: 5px 3px 15px -13px #000000;
+.Appointment_date:hover {
+  -webkit-box-shadow: 5px 3px 15px -13px #000000;
+  box-shadow: 5px 3px 15px -13px #000000;
 }
 
-
-.dayime_phone{
-    border: 1px solid rgb(4, 147, 172) ;
-    border-radius: 5px;
+.dayime_phone {
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
 }
 
-.dayime_phone:hover{
-    -webkit-box-shadow: 5px 3px 15px -13px #000000; 
-    box-shadow: 5px 3px 15px -13px #000000;
+.dayime_phone:hover {
+  -webkit-box-shadow: 5px 3px 15px -13px #000000;
+  box-shadow: 5px 3px 15px -13px #000000;
 }
-
-
-
-
-
 
 /* Appointment information section */
-.Appointment_information .text{
-    background-color:  rgb(4, 147, 172) ;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0px;
+.Appointment_information .text {
+  background-color: rgb(4, 147, 172);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
 }
 
-
-
-.date_booking{
-    border: 1px solid rgb(4, 147, 172) ;
-    border-radius: 5px;
+.date_booking {
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
 }
 
-.date_booking:hover{
-    -webkit-box-shadow: 5px 3px 15px -13px #000000; 
-    box-shadow: 5px 3px 15px -13px #000000;
+.date_booking:hover {
+  -webkit-box-shadow: 5px 3px 15px -13px #000000;
+  box-shadow: 5px 3px 15px -13px #000000;
 }
 
-
-.Time_booking{
-    border: 1px solid rgb(4, 147, 172) ;
-    border-radius: 5px;
+.Time_booking {
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
 }
 
-.Time_booking:hover{
-    -webkit-box-shadow: 5px 3px 15px -13px #000000; 
-    box-shadow: 5px 3px 15px -13px #000000;
+.Time_booking:hover {
+  -webkit-box-shadow: 5px 3px 15px -13px #000000;
+  box-shadow: 5px 3px 15px -13px #000000;
 }
 
-
-.physcician_text{
-  color: rgb(4, 147, 172) ;
+.physcician_text {
+  color: rgb(4, 147, 172);
 }
 
 /* go home bottom  */
-.sumbit-btn{
-   background-color:  rgb(4, 147, 172) ;
-   color: #fff;
-   border-radius: 5px;
+.sumbit-btn {
+  background-color: rgb(4, 147, 172);
+  color: #fff;
+  border-radius: 5px;
 }
-
-

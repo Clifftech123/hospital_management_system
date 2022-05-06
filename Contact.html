@@ -1,156 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap link -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-   <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
-    <!-- css link -->
-    <link rel="stylesheet" href="Contact.css" />
-    <title>Project</title>
-  </head>
-  <body>
-    <!--========== Navbar=============== -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark   ">
-        <div class="container">
-          <a class="navbar-brand" href="#">Logo </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link " href="Index.html">Home</a>
-              </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap link -->
 
-              <li class="nav-item">
-                <a class="nav-link" href="Appointment.html">Appointment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Addim.html">Donation</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  active contact_active" href="Contact.html">Contact</a>
-              </li>
-            </ul>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="Contact.css" />
+  <title>Project</title>
+</head>
 
-            <!-- form with search button -->
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-light d-none d-md-block" type="submit">
-                Search
-              </button>
-            </form>
+<body>
+  <!--========== Navbar=============== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark   ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <!-- login and signup links -->
-            <ul class="navbar-nav ms-auto onmedia">
-              <li class="nav-item">
-                <a class="nav-link register_font register" href="#">Register</a>
-              </li>
-              <p>  </p>
-              <li class="nav-item">
-                <a class="nav-link register_font loingbord" href="#">login</a>
-              </li>
-            </ul>
-          </div>
+
+          <!-- TOP SEARCH -->
+          <form class="d-flex topserch">
+            <input class="form-control me-2 topserch" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light topserch" type="submit">
+              Search
+            </button>
+          </form>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="Index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Appointment.html">Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Addim.html">Donation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active contact_active" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- MAIN mainserch -->
+          <form class="d-flex mainserch">
+            <input class="form-control me-2 mainserch" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light mainserch" type="submit">
+              Search
+            </button>
+          </form>
+
+
+          <!-- login and signup links -->
+          <ul class="navbar-nav ms-auto onmedia">
+            <li class="nav-item">
+              <a class="nav-link register_font register" href="#">Register</a>
+            </li>
+            <p> </p>
+            <li class="nav-item">
+              <a class="nav-link register_font loingbord" href="#">login</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-    <!-- the end of the navbar -->
-  
+      </div>
+    </nav>
+  </header>
+  <!-- the end of the navbar -->
 
 
 
 
+  <!-- Contact form  -->
+  <section id="form_section">
+    <div class=" container my-5">
+      <div class="row ">
+        <div class=" offset-md-3">
+        </div>
+        <!-- The hospital Address in the form  -->
+        <div class="col-md-3">
+          <div class="Adrress ">
+            <h3 class="lead"> Hospital Address</3>
+
+              <p class="lead ">
+                <span> 5000 Lorem ipsum dolor sit </span> <br>
+                <span> 22-56-3-9 sit kumasi,Ghana</span> <br>
+                <span> phone(0202020202) </span> <br>
+                <span> Fax (030303030303) </span> <br>
+                <span> E-mail something@dmail.com </span> <br>
+              </p>
+          </div>
 
 
-    <!-- Contact form  -->
-  <section id="form_section"> 
-         <div class=" container my-5">
-            <div class="row ">
-              <div class=" offset-md-3">
-              </div>
-                <!-- The hospital Address in the form  -->
-                <div class="col-md-3">
-                 <div class="Adrress ">
-                    <h3 class="lead"> Hospital Address</3>
-                    
-                        <p class="lead "> 
-                            <span> 5000 Lorem ipsum dolor sit  </span> <br>
-                            <span> 22-56-3-9 sit kumasi,Ghana</span> <br>
-                            <span> phone(0202020202) </span> <br>
-                            <span> Fax (030303030303) </span> <br>
-                            <span> E-mail something@dmail.com </span> <br>
-                        </p> 
-                 </div>
-                    
-    
-                </div>
+        </div>
 
-              <!-- for section  -->
-                <div class="col-md-6"> 
+        <!-- for section  -->
+        <div class="col-md-6">
 
-                    <form>
-                        <h3 class=" lead">CONTACT US  </h3>
-                        <div class="form-group mb-2">
-                          <label for="Username " class="lead for_lable">NAME</label>
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
-                        </div>
-                        <div class="form-group mb-2">
-                            <label for="useremail " class="lead for_lable">E-MAIL</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            
-                          </div>
-                        <div class="form-group mb-2 ">
-                          <label for="userphonenumber" class="lead for_lable"> MOBILE.NO</label>
-                          <input type="number" class="form-control " id="exampleInputPassword1" placeholder="Phone Number">
-                        </div>
+          <form>
+            <h3 class=" lead">CONTACT US </h3>
+            <div class="form-group mb-2">
+              <label for="Username " class="lead for_lable">NAME</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter name">
+            </div>
+            <div class="form-group mb-2">
+              <label for="useremail " class="lead for_lable">E-MAIL</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
 
-                        <div class="mb-2">
-                            <label for="Subject" class="form-label lead for_lable">SUBJECT</label>
-                            <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Write your message Here"></textarea>
-                          </div>
-                          <center>
-                            <a class="btn sumbit-btn  for_submit_botton" href="#" role="button"> Submit </a>
-                          </center>
-                      </form>
-                     </div>
-              </div>
-    
+            </div>
+            <div class="form-group mb-2 ">
+              <label for="userphonenumber" class="lead for_lable"> MOBILE.NO</label>
+              <input type="number" class="form-control " id="exampleInputPassword1" placeholder="Phone Number">
+            </div>
 
-         </div>
-      
-
+            <div class="mb-2">
+              <label for="Subject" class="form-label lead for_lable">SUBJECT</label>
+              <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Write your message Here"></textarea>
+            </div>
+            <center>
+              <a class="btn sumbit-btn  for_submit_botton" href="#" role="button"> Submit </a>
+            </center>
+          </form>
+        </div>
+      </div>
+    </div>
   </section>
-     
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
 
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

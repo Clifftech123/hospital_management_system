@@ -1,161 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstrap link -->
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-   <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
-    <!-- css link -->
-    <link rel="stylesheet" href="/Appointment.css" />
-    <title>Project</title>
-  </head>
-  <body>
-    <!--========== Navbar=============== -->
-   
-    <!-- the end of the navbar -->
-     
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/bootstrap-5.0.2/dist/css/bootstrap.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="/Appointment.css" />
+  <title>Project</title>
+</head>
+
+<body>
+  <!--========== Navbar=============== -->
+
+  <!-- the end of the navbar -->
 
 
 
-    <!-- FORM SECTION  -->
-    <section id="Appointment_form_m" >
-        <div class="heading"> <p class="text-center heading_text ">  Patient Information</p>  
-        <div class="container">
 
-            <!-- The begin of the form  -->
-            <div  id="first-information" class=" my-5">
-                <!-- PATIENT INFORMATION  -->
-               <div class="row">
-                   <div class="col-md-4">
-                    <label for="Username " class="lead for_lable"> First Name </label>
-                    <input type="text" class="form-control first_name" id="firstname" aria-describedby="emailHelp" placeholder="First Name" required>
-                   </div>
+  <!-- FORM SECTION  -->
+  <section id="Appointment_form_m">
+    <div class="heading">
+      <p class="text-center heading_text "> Patient Information</p>
+      <div class="container">
 
-                   <div class="col-md-4">
-                    <label for="Username " class="lead for_lable">Middle Name</label>
-                    <input type="text" class="form-control Middle_name" id="Meddielname" aria-describedby="emailHelp" placeholder="Middle Name" required>
-                   </div>
-                   <div class="col-md-4">
-                    <label for="Username " class="lead for_lable ">Last Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name" required>
-                   </div>
-               </div>
+        <!-- The begin of the form  -->
+        <div id="first-information" class=" my-5">
+          <!-- PATIENT INFORMATION  -->
+          <div class="row">
+            <div class="col-md-4">
+              <label for="Username " class="lead for_lable"> First Name </label>
+              <input type="text" class="form-control first_name" id="firstname" aria-describedby="emailHelp"
+                placeholder="First Name" required>
+            </div>
 
-
-
-               <!-- Date Section -->
-               <div class="row my-3">
-                
-                <div class="col-md-4 ">
-                    <label for="Username " class="lead for_lable"> Date of Birth  </label>
-                    <input type="date" class="form-control Appointment_date" id="Meddielname" aria-describedby="emailHelp" placeholder="Middle Name" required>
-                   </div>
-                   
-                   <div class="col-md-4">
-                    <label for="Username " class="lead for_lable "> Daytime phone</label>
-                    <input type="number" class="form-control dayime_phone" id="Meddielname" aria-describedby="emailHelp" placeholder="Middle Name" required>
-                   </div>
-               
+            <div class="col-md-4">
+              <label for="Username " class="lead for_lable">Middle Name</label>
+              <input type="text" class="form-control Middle_name" id="Meddielname" aria-describedby="emailHelp"
+                placeholder="Middle Name" required>
+            </div>
+            <div class="col-md-4">
+              <label for="Username " class="lead for_lable ">Last Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Last Name" required>
+            </div>
+          </div>
 
 
-                   <!-- First question Section -->
-                   <p class=" my-2 lead "> Is this Your first Visit to this Office</p>
-                   <p>
-                       <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
-                          Yes
-                        </label> </span>
-                        <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="nokecbox">
-                          No
-                        </label> </span>
-                   </p>
+
+          <!-- Date Section -->
+          <div class="row my-3">
+
+            <div class="col-md-4 ">
+              <label for="Username " class="lead for_lable"> Date of Birth </label>
+              <input type="date" class="form-control Appointment_date" id="Meddielname" aria-describedby="emailHelp"
+                placeholder="Middle Name" required>
+            </div>
+
+            <div class="col-md-4">
+              <label for="Username " class="lead for_lable "> Daytime phone</label>
+              <input type="number" class="form-control dayime_phone" id="Meddielname" aria-describedby="emailHelp"
+                placeholder="Middle Name" required>
+            </div>
 
 
-                   
 
-               </div>
-            </div>  
+            <!-- First question Section -->
+            <p class=" my-2 lead "> Is this Your first Visit to this Office</p>
+            <p>
+              <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
+                Yes
+                </label> </span>
+              <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="nokecbox">
+                No
+                </label> </span>
+            </p>
+
+          </div>
         </div>
-
-        
-        
-     <!-- APPOINTMENT INFORMATION  -->
-      <div class="Appointment_information text-center">
-        <P class="text">  Appointment Information </P> 
       </div>
-      
+
+      <!-- APPOINTMENT INFORMATION  -->
+      <div class="Appointment_information text-center">
+        <P class="text"> Appointment Information </P>
+      </div>
+
       <div class="container my-4">
         <div class="row">
           <div class="col-md-4">
-            <label for="Username " class="lead for_lable "> Date   </label>
-            <input type="date" class="form-control date_booking" id="Meddielname" aria-describedby="emailHelp" placeholder="Date" required>
+            <label for="Username " class="lead for_lable "> Date </label>
+            <input type="date" class="form-control date_booking" id="Meddielname" aria-describedby="emailHelp"
+              placeholder="Date" required>
           </div>
 
-           
+
 
           <div class="col-md-3">
-            <label for="Username " class="lead for_lable"> Time  </label>
-            <input type="time" class="form-control Time_booking" id="time" aria-describedby="emailHelp" placeholder="Middle Name" required>
+            <label for="Username " class="lead for_lable"> Time </label>
+            <input type="time" class="form-control Time_booking" id="time" aria-describedby="emailHelp"
+              placeholder="Middle Name" required>
           </div>
         </div>
-
-
 
         <p class="my-4 "> Preferred Physician <br>
 
           <!-- name for the doctors  -->
-          <span class=" physcician_text">  <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
+          <span class=" physcician_text"> <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
             Dr Anderson
-          </label> </span>
-          <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="nokecbox">
-          Dr Jonas
+            </label> </span>
+          <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="nokecbox">
+            Dr Jonas
+            </label> </span>
+          <br>
+          <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
+            Dr Anderson
+            </label> </span>
+          <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="nokecbox">
+            Dr Jonas
+            </label> </span>
           </label> </span>
           <br>
-          <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="yesckecbox">
-            Dr Anderson
-          </label> </span>
-          <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="nokecbox">
-          Dr Jonas
-          </label> </span>
-        </label> </span>
-        <br>
-        <span class="physcician_text">  <input class="form-check-input" type="checkbox" value="" id="nokecbox">
-        Dr Jonas 
-        </span>
+          <span class="physcician_text"> <input class="form-check-input" type="checkbox" value="" id="nokecbox">
+            Dr Jonas
+          </span>
         </p>
       </div>
 
       <!-- Go back  home button  -->
-     <div class=" container  d-flex justify-content-center"> 
-       <a class="btn  sumbit-btn " href="Index.html" role="button"> Go to Homepage</a>
+      <div class=" container  d-flex justify-content-center">
+        <a class="btn  sumbit-btn " href="Index.html" role="button"> Go to Homepage</a>
 
-     </div>
+      </div>
 
-
-    </section>
-
-
-
-
-  
+  </section>
 
 
 
 
-     
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
 
-  </body>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

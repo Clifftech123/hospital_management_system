@@ -25,45 +25,32 @@
   padding: 6px 0;
 }
 
-.home-active{
-  color:  rgba(9,47,121,1) !important;
+.home-active {
+  color: rgba(9, 47, 121, 1) !important;
 }
 
-
-
-
-
-  /*======= Remove all the border bottom from the nav links =========*/
+/*======= Remove all the border bottom from the nav links =========*/
 @media (max-width: 767px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 @media (max-width: 767px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 
 @media (max-width: 991px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 @media (max-width: 991px) {
   a.nav-link:hover {
-  
     border: none;
-    
   }
 }
-
 
 /* when the home button is active we will change the colors  */
 .home-active {
@@ -78,13 +65,11 @@ select {
 
 input[type="search"] :focus {
   outline: none;
-  border: none ;
+  border: none;
 }
-.header_conten p{
+.header_conten p {
   margin-top: 500px !important;
 }
-
-
 
 /* body background with the image  */
 html,
@@ -95,15 +80,8 @@ body {
 }
 
 html body {
-  background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+  background: url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
 }
-
-html  {
-
-}
-
-
-
 
 /* ============ login and signup links in navbar  ==========*/
 .register_font {
@@ -116,9 +94,9 @@ html  {
   margin-right: 5px;
 }
 
-/*   <!-- the bewteen the the two items will remove when the screen reach this size  -->  */
 @media (max-width: 757px) {
-  .loingbord, .register_font {
+  .loingbord,
+  .register_font {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,16 +105,41 @@ html  {
 }
 
 @media (max-width: 991px) {
-  .loingbord, .register_font {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
+}
+
+/* Serch bar meadi quarry */
+@media (max-width: 757px) {
+  .mainserch {
+    display: none;
   }
 }
 
+@media (max-width: 991px) {
+  .mainserch {
+    display: none;
+  }
+}
 
-.heading_text{
+.topserch {
+  display: none;
+}
+
+@media (max-width: 757px) {
+  .topserch {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .topserch {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+/* CONTENT CARD -------------------------------- */
+.heading_text {
   font-weight: bold;
 }
 
@@ -156,93 +159,77 @@ html  {
 }
 
 /* card  hover effect */
-.card:hover{
+.card:hover {
   box-shadow: 5px 5px 5px rgba(4, 147, 172, 0.168);
-  background-color: rgba(9,47,121,1) ;
-  transform:scale(1.1);
+  background-color: rgba(9, 47, 121, 1);
+  transform: scale(1.1);
   color: #fff;
   border-radius: 8px;
-
- 
 }
 
-.card{
-transition:.3s;
-overflow: hidden;
-border: 1px solid   rgb(4, 147, 172);
-border-radius: 5px;
-position: relative;
-height: 200px;
-margin-top: 70px;
-background-color: rgb(255, 255, 255);
-
-
+.card {
+  transition: 0.3s;
+  overflow: hidden;
+  border: 1px solid rgb(4, 147, 172);
+  border-radius: 5px;
+  position: relative;
+  height: 200px;
+  margin-top: 70px;
+  background-color: rgb(255, 255, 255);
 }
-
 
 /* card on small devices  */
 
 @media (max-width: 767px) {
-  .card{
-    
-  
+  .card {
     box-shadow: none;
- 
-    transform:none;
-    transition:none;
-    transition:none;
+
+    transform: none;
+    transition: none;
+    transition: none;
     display: grid;
     place-items: center;
     align-items: center;
-    
   }
 
   html body {
-    background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+    background: url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
   }
-  
 }
 @media (max-width: 767px) {
   .card:hover {
-    
     box-shadow: none;
 
-    transform:none;
-    transition:none;
+    transform: none;
+    transition: none;
     display: grid;
     place-items: center;
     align-items: center;
-    
   }
 
   html body {
-    background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+    background: url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
   }
-  
 }
 
 /* card text  */
-.card-text{
+.card-text {
   font-size: 15px;
-  color:rgb(4, 147, 172); 
+  color: rgb(4, 147, 172);
 }
 
 /*=============== card image ==========*/
 
 /* doctor image  */
-.doctor-image
- {
+.doctor-image {
   opacity: 0.2;
 }
-
-
 
 /*  patenint  image  */
-.patient-image{
+.patient-image {
   opacity: 0.2;
 }
 
-
-.Addmi-image{
+.Addmi-image {
   opacity: 0.1;
 }

@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hubballi&family=M+PLUS+Rounded+1c:wght@100;800&family=Open+Sans:ital,wght@0,500;1,800&family=Quicksand:wght@300&display=swap");
 
 * {
@@ -26,45 +25,63 @@
   padding: 6px 0;
 }
 
-.home-active{
-  color:  rgba(9,47,121,1) !important;
+.home-active {
+  color: rgba(9, 47, 121, 1) !important;
 }
 
+/* Serch bar meadi quarry */
+@media (max-width: 757px) {
+  .mainserch {
+    display: none;
+  }
+}
 
+@media (max-width: 991px) {
+  .mainserch {
+    display: none;
+  }
+}
 
+.topserch {
+  display: none;
+}
 
+@media (max-width: 757px) {
+  .topserch {
+    display: block;
+    margin-top: 20px;
+  }
+}
 
-  /*======= Remove all the border bottom from the nav links =========*/
+@media (max-width: 991px) {
+  .topserch {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+/*======= Remove all the border bottom from the nav links =========*/
 @media (max-width: 767px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 @media (max-width: 767px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 
 @media (max-width: 991px) {
   a.nav-link:hover {
-    
     border: none;
-    
   }
 }
 @media (max-width: 991px) {
   a.nav-link:hover {
-  
     border: none;
-    
   }
 }
-
 
 /* when the home button is active we will change the colors  */
 .home-active {
@@ -79,9 +96,9 @@ select {
 
 input[type="search"] :focus {
   outline: none;
-  border: none ;
+  border: none;
 }
-.header_conten p{
+.header_conten p {
   margin-top: 500px !important;
 }
 
@@ -98,7 +115,8 @@ input[type="search"] :focus {
 
 /*   <!-- the bewteen the the two items will remove when the screen reach this size  -->  */
 @media (max-width: 757px) {
-  .loingbord, .register_font {
+  .loingbord,
+  .register_font {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +125,8 @@ input[type="search"] :focus {
 }
 
 @media (max-width: 991px) {
-  .loingbord, .register_font {
+  .loingbord,
+  .register_font {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,50 +134,40 @@ input[type="search"] :focus {
   }
 }
 
-
 /* background image */
 
 html body {
-  background:    url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
+  background: url(/IMAGES/dcotor12.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-
-
-
 /* ==============  FORM SECTION ==================== */
-.Form_section{
+.Form_section {
   margin-top: 70px;
-  
 }
 
 /* for background color  */
-.form_background{
+.form_background {
   background: rgba(4, 147, 172, 0.802);
   color: #fff;
   width: 70%;
   border-radius: 7px;
 }
 
-
 /* option section background */
-#validationCustom04 option{
+#validationCustom04 option {
   background: rgb(4, 147, 172);
   color: #fff;
   font-weight: lighter;
   font-family: "Quicksand", sans-serif;
-
 }
 
-
 /* form control */
-.form-control{
+.form-control {
   border-radius: 5px;
 }
 
-.form-control:hover{
-  -webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.72); 
-  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.72);
-
+.form-control:hover {
+  -webkit-box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.72);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.72);
 }
-
